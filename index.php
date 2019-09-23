@@ -5,7 +5,7 @@
 ?>
 <?php
 	$db = new Database();
-	$query = "SELECT * FROM tbl_user";
+	$query = "SELECT * FROM tbl_user ORDER BY id desc";
 	$read = $db->select($query);
 ?>
 <?php
