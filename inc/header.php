@@ -8,6 +8,7 @@
 <html>
 <head>
 	<title>PHP OOP CRUD</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<style>
 	 body{font-family:<?php echo $fonts;?>}.phpcoding{width:900px; margin: 0 auto;background:<?php echo "#ddd" ?>;}.headeroption, .footeroption{background:<?php echo $bgcolor; ?>;color:<?php echo $fontcolor; ?>;text-align:center;padding:20px;}.headeroption h2, .footeroption h2{margin:0;font-size:24px}.maincontent{min-height:400px;padding:20px;font-size:18px}
 	 p{margin:0}
